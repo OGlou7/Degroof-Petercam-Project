@@ -25,7 +25,10 @@ class Boilerplate extends React.Component{
                         <Text>Une liste de ouf</Text>
                         <Text>Une liste de ouf</Text>
                         <Text>Une liste de ouf</Text>
-
+                    </View>
+                    <View style={styles.infobloc}>
+                        <Text style={styles.infosubtitle}>Total hours counter</Text>
+                        <Text>xx / 24 hours used</Text>
                     </View>
                 </View>
         	</View>
@@ -39,7 +42,7 @@ const styles=StyleSheet.create({
     page:{
         alignItems: 'center',
         justifyContent: 'center',
-        paddingTop: 50,
+        paddingTop: 40,
     },
 
 	maintitle:{
@@ -49,7 +52,7 @@ const styles=StyleSheet.create({
     },
 
     hi:{
-        paddingBottom: 50,
+        paddingBottom: 20,
     },
 
     blocinfo: {
@@ -68,6 +71,8 @@ const styles=StyleSheet.create({
 
     infobloc: {
         paddingBottom: 15,
+        alignItems: 'center',
+
     },
 
 

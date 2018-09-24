@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Degroof",
-    "description": "A very interesting project.",
+    "description": "A long project.",
     "slug": "Degroof",
     "privacy": "public",
     "sdkVersion": "30.0.0",
@@ -12,7 +12,7 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#B2B4B2"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

@@ -2,11 +2,11 @@
 
 - **Repository**: `Degroof-Petercam-Project`
 - **Team** : 
-- [Adrien d'Oreye](https://github.com/Adridor)
-- [Alexandre Infanti](https://github.com/Alex-Nfnt)
-- [Eric Lavachery](https://github.com/ericLavachery)
-- [Marie Louise Ogdoc](https://github.com/OGlou7)
-- [Nathan Houtain](https://github.com/NathanHoutain)
+  - [Adrien d'Oreye](https://github.com/Adridor)
+  - [Alexandre Infanti](https://github.com/Alex-Nfnt)
+  - [Eric Lavachery](https://github.com/ericLavachery)
+  - [Marie Louise Ogdoc](https://github.com/OGlou7)
+  - [Nathan Houtain](https://github.com/NathanHoutain)
 
 - **Duration** : `3 Days`
 

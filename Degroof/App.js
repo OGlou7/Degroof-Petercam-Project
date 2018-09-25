@@ -16,11 +16,6 @@ export default class App extends React.Component {
       asArray:true,
     })
   }
-  addPerson(person){
-    this.setState({
-      people: this.state.people.concat([person])
-    });
-  }
 
 
   render() {

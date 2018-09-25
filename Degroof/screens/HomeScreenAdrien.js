@@ -9,19 +9,25 @@ import {
 } from 'react-native';
 import { WebBrowser } from 'expo';
 
-import MissionPage from './MissionPage'
+import Form from '../components/Form'
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
-  header: null,
+    header: null,
   };
 
-  
+  addPerson(userForm){
+    console.log(userForm);
+  }
 
   render() {
     return (
       <ScrollView style={styles.style1}>
-        <MissionPage style={styles.ProjectPage}/>
+        <Form
+          addPerson={this.addPerson.bind(this)}
+        >
+
+          </Form>
       </ScrollView>
     );
   }

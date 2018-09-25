@@ -1,5 +1,5 @@
 import React from 'react';
-import {View,Text, StyleSheet, TextInput, TouchableOpacity, KeyboardAvoidingView} from 'react-native';
+import {View,Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
 
 class LoginPage extends React.Component{
 	render(){
@@ -59,7 +59,7 @@ const styles=StyleSheet.create({
 		borderRadius: 25,
   },
 	loginButton:{
-		backgroundColor: '#00cd76',
+		backgroundColor: '#3fd393',
 		borderRadius: 25,
 		alignItems:'center',
 		height: 40,
@@ -78,7 +78,7 @@ const styles=StyleSheet.create({
 	signupButton:{
 		fontSize: 16,
 		textAlign: 'center',
-		color: 'white',
+		color: '#3fd393',
 		fontWeight: '500',
 	}
 

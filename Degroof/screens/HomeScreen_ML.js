@@ -5,7 +5,6 @@ import LoginPage from "../components/establishments/LoginPage";
 import SignUpPage from "../components/establishments/SignUpPage";
 
 
-
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
     header: null,
@@ -13,25 +12,25 @@ export default class HomeScreen extends React.Component {
 
   render() {
     return (
+
       <KeyboardAvoidingView behavior="padding" style={styles.containerScreen}>
-          <View>
-            <View>
-              <Image style={styles.imageLogoContainer}
-                source={require('../assets/images/01_DegroofPetercam_Logo_Black.jpg')}
-              />
-            </View>
-            <View style={styles.logoLoginContainer}>
-              <Image style={styles.logoLogin}
-                source={require('../assets/images/LoginLogo.png')}
-              />
-            </View>
-            <View style={styles.WelcomeText}>
-              <Text style={styles.logoText}> Welcome to Degroof Petercam </Text>
-              <Text style={styles.logoText}> MyApp</Text>
-            </View>
-          </View>
-          <LoginPage/>
+        <View>
+          <Image style={styles.imageLogoContainer}
+            source={require('../assets/images/01_DegroofPetercam_Logo_Black.jpg')}
+          />
+        </View>
+        <View style={styles.logoLoginContainer}>
+          <Image style={styles.logoLogin}
+            source={require('../assets/images/LoginLogo.png')}
+          />
+        </View>
+        <View style={styles.WelcomeText}>
+          <Text style={styles.logoText}> Welcome to Degroof Petercam </Text>
+          <Text style={styles.logoText}> MyApp</Text>
+        </View>
+        <LoginPage/>
       </KeyboardAvoidingView>
+
     );
   };
 }
@@ -39,7 +38,7 @@ export default class HomeScreen extends React.Component {
 const styles = StyleSheet.create({
   containerScreen: {
     flex: 1,
-    backgroundColor: '#B2B4B2',
+    backgroundColor: 'white',
   },
   imageLogoContainer: {
     marginTop: 24,
@@ -48,11 +47,11 @@ const styles = StyleSheet.create({
     height: 80,
   },
   logoLoginContainer: {
-    paddingTop: 33,
+    paddingTop: 35,
   },
   logoLogin: {
-    height: 100,
-    width: 100,
+    height: 88,
+    width: 88,
     justifyContent: 'center',
     alignSelf: 'center',
   },

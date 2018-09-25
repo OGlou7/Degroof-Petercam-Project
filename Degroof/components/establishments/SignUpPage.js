@@ -6,6 +6,18 @@ class SignUpPage extends React.Component{
 	render(){
 		return(
 			 <View style={styles.container}>
+       <TextInput style={styles.login}
+         placeholder='First Name'
+         returnKeyType='next'
+         autoCapitalize='none'
+         style={styles.input}
+       />
+       <TextInput style={styles.login}
+         placeholder='Last Name'
+         returnKeyType='next'
+         autoCapitalize='none'
+         style={styles.input}
+       />
         <TextInput style={styles.login}
 					placeholder='email address'
 					returnKeyType='next'
@@ -23,7 +35,7 @@ class SignUpPage extends React.Component{
           style={styles.input}
         />
 				<TouchableOpacity style={styles.loginButton}>
-					<Text style={styles.loginText}>LOGIN</Text>
+					<Text style={styles.loginText}>CONFIRM</Text>
 				</TouchableOpacity>
 
 				<View>

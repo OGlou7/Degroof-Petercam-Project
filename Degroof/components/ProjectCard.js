@@ -1,33 +1,23 @@
 import React from 'react';
-import { Text, View, Image, SectionList, StyleSheet } from 'react-native';
+import { Text, FlatList, StyleSheet} from 'react-native';
+import ProjectRow from '../components/ProjectRow'
 
-export default class ProjectCard extends React.Component {
-  render() {
-    return (
-      <View>
-        <Image source={require('../assets/images/icon.png')}/>;
-      </View>
-    )
+const _renderItem = ({ item }) => (
+  <ProjectRow
+    name={item.name}
+    region={item.region}
+    fields={item.fields}
+    type={item.type}
+    skills={item.skills}
+    hours={item.hours}
+    picture={item.picture.source}
+  />
+)
 
-    // <SectionList
-    // renderItem={({item, index, section}) => <Text key={index}>{item}</Text>}
-    // )}
-    // sections={[
-    //   {data: ['item1']},
-    //   {data: ['item2']},
-    //   {data: ['item3']},
-    //   {data: ['item4']},
-    //   {data: ['item5']},
-    //   {data: ['item6']},
-    // ]}
-    // keyExtractor={(item, index) => item + index}
-    //   />;
-  }
-}
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#B2B4B2',
-//   },
-// });
+export default (ProjectCard = props => (
+  <FlatList
+    data={props.data}
+    renderItem={_renderItem}
+    keyExtractor={item => item.name}
+    />
+))

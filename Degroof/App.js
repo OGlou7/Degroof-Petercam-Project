@@ -2,11 +2,26 @@ import React from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
+import base from './Base';
 
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false,
   };
+
+  componentDidMount(){
+    base.syncState('people',{
+      context:this,
+      state:'people',
+      asArray:true,
+    })
+  }
+  addPerson(person){
+    this.setState({
+      people: this.state.people.concat([person])
+    });
+  }
+
 
   render() {
     if (!this.state.isLoadingComplete && !this.props.skipLoadingScreen) {

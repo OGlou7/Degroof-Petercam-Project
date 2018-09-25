@@ -10,22 +10,25 @@ export default class ProjectPage extends React.Component {
   render() {
     return (
       <ScrollView>
-        <ProjPicture></ProjPicture>
-        <ProjDescription styles={styles.style2}></ProjDescription>
-        <MissionDescription styles={styles.style1}></MissionDescription>
+        <ProjPicture styles={styles.ProjPicture}></ProjPicture>
+        <ProjDescription styles={styles.ProjDescription}></ProjDescription>
+        <MissionDescription styles={styles.MissionDescription}></MissionDescription>
         <ApplyButton></ApplyButton>
       </ScrollView>
     );
   }
 }
 const styles=StyleSheet.create({
-	style1:{
+	MissionDescription:{
     flex:1
   },
-	style2:{
+	ProjDescription:{
     flex: 1,
     marginBottom:150,
     backgroundColor:"red",
   },
+  ProjPicture:{
+    marginTop:40,
+  }
 
 	})

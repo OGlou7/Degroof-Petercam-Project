@@ -17,6 +17,7 @@ const styles=StyleSheet.create({
 	alignImage:{
     flex:1,
 		alignSelf:'center',
+		marginTop:40,
   },
 		})
 export default ProjPicture;

@@ -28,7 +28,7 @@ class LoginPage extends React.Component{
 				<View>
 					<Text style={styles.signupText}>Don´t have an account yet?</Text>
 					<TouchableOpacity>
-						<Text style={styles.signupButton}>Sign up</Text>
+						<Text style={styles.signupButton}>Sign Up</Text>
 					</TouchableOpacity>
 				</View>
 			</View>
@@ -76,9 +76,10 @@ const styles=StyleSheet.create({
 		paddingTop: 20,
 	},
 	signupButton:{
-			fontSize: 16,
+		fontSize: 16,
 		textAlign: 'center',
 		color: 'white',
+		fontWeight: '500',
 	}
 
 	})

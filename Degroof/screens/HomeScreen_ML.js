@@ -2,6 +2,9 @@ import React from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View, TextInput, KeyboardAvoidingView,
 } from 'react-native';
 import LoginPage from "../components/establishments/LoginPage";
+import SignUpPage from "../components/establishments/SignUpPage";
+
+
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {

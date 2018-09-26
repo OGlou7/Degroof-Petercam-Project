@@ -4,7 +4,7 @@ import {Image, StyleSheet, Text, TouchableOpacity, View, TextInput, KeyboardAvoi
 import LoginPage from "../components/establishments/LoginPage";
 import SignUpPage from "../components/establishments/SignUpPage";
 
-export default class HomeScreen extends React.Component {
+export default class HomeScreenML extends React.Component {
   static navigationOptions = {
     header: null,
   };
@@ -13,7 +13,7 @@ export default class HomeScreen extends React.Component {
     return (
 
     <KeyboardAvoidingView behavior="padding" style={styles.containerScreen}>
-      <View>
+      <View navigation={this.props.navigation}>
         <Image style={styles.imageLogoContainer}
           source={require('../assets/images/01_DegroofPetercam_Logo_Black.jpg')}
         />
@@ -27,7 +27,7 @@ export default class HomeScreen extends React.Component {
         <Text style={styles.logoText}> Welcome to Degroof Petercam </Text>
         <Text style={styles.logoText}> MyApp</Text>
       </View>
-      <LoginPage/>
+      <LoginPage navigation={this.props.navigation}/>
     </KeyboardAvoidingView>
 
     );

@@ -11,7 +11,7 @@ import { WebBrowser } from 'expo';
 import SignIn from '../components/Form'
 import base from '../Base'
 
-export default class HomeScreen extends React.Component {
+export default class HomeScreenAdrien extends React.Component {
   constructor(props){
   super(props);
   this.state={

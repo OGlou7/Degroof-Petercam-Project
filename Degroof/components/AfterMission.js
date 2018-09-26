@@ -17,8 +17,8 @@ class AfterMission extends React.Component{
                     <Rating showRating onFinishRating={this.ratingCompleted} style={styles.stars}   imageSize={20} />
                 </View>
                     <View style={styles.viewComment}>
-                        <Text>Comment, message or nota bene ? It's below !</Text>
-                        <TextInput style={styles.comment} placeholder="Put your comment/message/nota bene here !"></TextInput>
+                        <Text>Comment, message or nota bene ? </Text>
+                        <TextInput style={styles.comment} placeholder="write here, just right here !"></TextInput>
                     </View>
                 <CustomButton />
 			</View>

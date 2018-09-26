@@ -23,7 +23,7 @@ const projectData = [
     skills: ['skill 2.1', 'skill 2.2', 'skill 2.3'],
     hours: 'hours 2',
     picture: {
-      source: 'https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png',
+      source: 'https://avatars2.githubusercontent.com/u/37371401?s=460&v=4',
     },
   },
   {
@@ -34,7 +34,7 @@ const projectData = [
     skills: ['skill 3.1', 'skill 3.2', 'skill 3.3'],
     hours: 'hours 3',
     picture: {
-      source: 'https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png',
+      source: 'https://avatars3.githubusercontent.com/u/38914407?s=460&v=4',
     },
   },
   {
@@ -45,7 +45,7 @@ const projectData = [
     skills: ['skill', 'skill', 'skill'],
     hours: 'hours',
     picture: {
-      source: 'https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png',
+      source: 'https://avatars0.githubusercontent.com/u/38914888?s=460&v=4',
     },
   },
   {
@@ -56,7 +56,7 @@ const projectData = [
     skills: ['skill', 'skill', 'skill'],
     hours: 'hours',
     picture: {
-      source: 'https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png',
+      source: 'https://avatars1.githubusercontent.com/u/38914599?s=460&v=4',
     },
   },
   {
@@ -67,7 +67,7 @@ const projectData = [
     skills: ['skill', 'skill', 'skill'],
     hours: 'hours',
     picture: {
-      source: 'https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png',
+      source: 'https://avatars2.githubusercontent.com/u/38914419?s=460&v=4',
     },
   },
   {
@@ -108,6 +108,7 @@ export default class App extends Component {
   static navigationOptions = {
   header: null,
   };
+  
   render() {
     return (
       <View style={styles.container}>

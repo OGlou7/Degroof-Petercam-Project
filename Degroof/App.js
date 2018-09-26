@@ -8,6 +8,7 @@ console.ignoredYellowBox = [
     'Setting a timer'
 ]
 
+
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false,

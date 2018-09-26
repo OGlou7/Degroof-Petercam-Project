@@ -2,7 +2,7 @@ import React from 'react';
 import {View,Text, Image, StyleSheet} from 'react-native';
 
 
-class Boilerplate extends React.Component{
+class PersoPage extends React.Component{
 	render(){
 		return(
 			 <View style={styles.page}>
@@ -36,19 +36,20 @@ class Boilerplate extends React.Component{
 			)
 	}
 }
-export default Boilerplate;
+export default PersoPage;
 
 const styles=StyleSheet.create({
     page:{
         alignItems: 'center',
         justifyContent: 'center',
-        paddingTop: 40,
     },
 
 	maintitle:{
         textAlign: 'center',
         fontWeight: 'bold',
         fontSize: 25,
+        marginTop: "5%",
+
     },
 
     hi:{

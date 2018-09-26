@@ -2,7 +2,9 @@ import React from 'react';
 import {Image, Platform, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { WebBrowser } from 'expo';
 import { MonoText } from '../components/StyledText';
-import Boilerplate from '../components/PersPage'
+import PersoPage from '../components/PersPage'
+import AfterMission from '../components/AfterMission'
+
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -13,8 +15,8 @@ export default class HomeScreen extends React.Component {
     return (
       <View style={styles.container}>
 
-      <Boilerplate />
-
+      {/* <PersoPage /> */}
+        <AfterMission />
       </View>
     );
   }

@@ -4,7 +4,6 @@ import {Image, StyleSheet, Text, TouchableOpacity, View, TextInput, KeyboardAvoi
 import LoginPage from "../components/establishments/LoginPage";
 import SignUpPage from "../components/establishments/SignUpPage";
 
-
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
     header: null,
@@ -13,23 +12,23 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
 
-      <KeyboardAvoidingView behavior="padding" style={styles.containerScreen}>
-        <View>
-          <Image style={styles.imageLogoContainer}
-            source={require('../assets/images/01_DegroofPetercam_Logo_Black.jpg')}
-          />
-        </View>
-        <View style={styles.logoLoginContainer}>
-          <Image style={styles.logoLogin}
-            source={require('../assets/images/LoginLogo.png')}
-          />
-        </View>
-        <View style={styles.WelcomeText}>
-          <Text style={styles.logoText}> Welcome to Degroof Petercam </Text>
-          <Text style={styles.logoText}> MyApp</Text>
-        </View>
-        <LoginPage/>
-      </KeyboardAvoidingView>
+    <KeyboardAvoidingView behavior="padding" style={styles.containerScreen}>
+      <View>
+        <Image style={styles.imageLogoContainer}
+          source={require('../assets/images/01_DegroofPetercam_Logo_Black.jpg')}
+        />
+      </View>
+      <View style={styles.logoLoginContainer}>
+        <Image style={styles.logoLogin}
+          source={require('../assets/images/LoginLogo.png')}
+        />
+      </View>
+      <View style={styles.WelcomeText}>
+        <Text style={styles.logoText}> Welcome to Degroof Petercam </Text>
+        <Text style={styles.logoText}> MyApp</Text>
+      </View>
+      <LoginPage/>
+    </KeyboardAvoidingView>
 
     );
   };

@@ -22,7 +22,7 @@ class LoginPage extends React.Component{
           style={styles.input}
         />
 				<TouchableOpacity style={styles.loginButton}>
-					<Text style={styles.loginText}>LOGIN</Text>
+					<Text style={styles.loginText} >LOGIN</Text>
 				</TouchableOpacity>
 
 				<View>
@@ -43,6 +43,7 @@ const styles=StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 		paddingTop: 4,
+
 	},
 	login:{
 		alignSelf: 'stretch',
@@ -57,6 +58,7 @@ const styles=StyleSheet.create({
 		textAlign:'center',
 		backgroundColor: 'white',
 		borderRadius: 25,
+		borderBottomColor: '#3fd393',
   },
 	loginButton:{
 		backgroundColor: '#3fd393',

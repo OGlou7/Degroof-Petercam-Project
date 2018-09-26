@@ -1,7 +1,7 @@
 import React from 'react';
 import {View,Text, Image, TextInput, StyleSheet} from 'react-native';
 import { Button, Rating } from 'react-native-elements';
-
+import CustomButton from './button.js'
 
 class AfterMission extends React.Component{
 	render(){
@@ -12,13 +12,13 @@ class AfterMission extends React.Component{
                 <Text style={styles.projName}>Project Name</Text>
                 <View>
                     <Text>Rating : How did you experience this mission ? (swip with your thumb)</Text>
-                    <Rating showRating onFinishRating={this.ratingCompleted} style={{ paddingVertical: 10 }} />
+                    <Rating showRating onFinishRating={this.ratingCompleted} style={styles.stars}   imageSize={20} />
                 </View>
-                <View>
+                <View style={styles.viewComment}>
                     <Text>Comment, message or nota bene ? It's below !</Text>
-                    <TextInput placeholder="Put your comment here !"></TextInput>
+                    <TextInput style={styles.comment} placeholder="Put your comment/message/nota bene here !"></TextInput>
                 </View>
-                <Button title='Submit' />
+                <CustomButton />
 			</View>
 			)
 	}
@@ -46,9 +46,23 @@ const styles=StyleSheet.create({
         fontStyle: 'italic',
         marginBottom: "5%",
     },
-    style2:{},
-    style2:{},
-    style2:{},
-    style2:{},
+    stars:{
+        paddingVertical: 10,
+        alignItems: 'center',
+        marginBottom: '5%',
+    },
+    comment:{
+        marginBottom: '5%',
+        borderStyle: 'solid',
+        borderWidth: 1,
+        borderColor: 'black',
+        height: 50,
+    },
+    viewComment:{
+        marginBottom: '5%',
+    },
+    button:{
+        backgroundColor: 'red',
+    },
     style2:{},
 	})

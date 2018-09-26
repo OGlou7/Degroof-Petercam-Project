@@ -4,6 +4,10 @@ import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
 import base from './Base';
 
+console.ignoredYellowBox = [
+    'Setting a timer'
+]
+
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false,

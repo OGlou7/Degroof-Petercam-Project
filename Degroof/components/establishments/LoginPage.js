@@ -2,6 +2,7 @@ import React from 'react';
 import {View,Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
 import base from '../../Base';
 
+
 class LoginPage extends React.Component{
 	constructor(props){
 		super(props);

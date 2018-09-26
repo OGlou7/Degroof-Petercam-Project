@@ -13,7 +13,7 @@ class AfterMission extends React.Component{
                 <Image source={require('../assets/images/EndMission.png')} />
                 <Text style={styles.projName}>Project Name</Text>
                 <View>
-                    <Text>Rating : How did you experience this mission ? (swip with your thumb)</Text>
+                    <Text>Rating : How did you experience this mission ? (swap with your thumb)</Text>
                     <Rating showRating onFinishRating={this.ratingCompleted} style={styles.stars}   imageSize={20} />
                 </View>
                     <View style={styles.viewComment}>
@@ -23,8 +23,7 @@ class AfterMission extends React.Component{
                 <CustomButton />
 			</View>
             </KeyboardAwareScrollView>
-
-			)
+		)
 	}
 }
 

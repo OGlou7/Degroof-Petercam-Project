@@ -2,11 +2,11 @@
 
 - **Repository**: `Degroof-Petercam-Project`
 - **Team** : 
-    ***Front-End***
+  - ***Front-End***
   - [Alexandre Infanti](https://github.com/Alex-Nfnt)
   - [Marie Louise Ogdoc](https://github.com/OGlou7)
   - [Nathan Houtain](https://github.com/NathanHoutain) 
-    ***Back-end***
+  - ***Back-end***
   - [Adrien d'Oreye](https://github.com/Adridor)
   - [Eric Lavachery](https://github.com/ericLavachery)
 
@@ -16,7 +16,6 @@
   - A challenge done while in training at [Becode](https://github.com/becodeorg/)
 
 ## Client
-
 [**Bank Degroof Petercam**](https://www.degroofpetercam.be/fr/home)
 
 ## About the Project
@@ -25,7 +24,7 @@ We have to create an app:
   - to allow every employee to spend 2h/month to give his skills to others
   - for employees that has a specific skills ex: accountability, HR, management, finance, IT
   - for the foundation to select projects that could benefit from those skills
-  - The projects receive time and skills from our employees to become stronger
+  - The projects receive time and skills from their employees to become stronger
 
 ## Objective
 Create an app :

@@ -9,7 +9,7 @@ const projectData = [
     region: 'Bruxelles',
     fields: ['Education'],
     type: 'Coaching',
-    skills: ['Code', 'I.T Knowledge'],
+    skills: ['Coding', 'I.T Knowledge'],
     hours: 'Unlimited',
     picture: {
       source: 'https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png',
@@ -124,11 +124,12 @@ export default class App extends Component {
         // onChangeText={this.handleChange.bind(this)}
       <View style={styles.container}>
         <SearchBar
+        style={styles.bar}
         lightTheme
         // value={this.state.searchStringUser}
         // onChangeText={this.handleChange.bind(this)}
         // onClearText={someMethod}
-        placeholder="Search for a project !             ( doesn't work )" />
+        placeholder="Search for a project !" />
         <ProjectCard data={projectData} />
       </View>
     )
@@ -140,6 +141,6 @@ const styles = StyleSheet.create({
     marginTop: 24,
   },
   bar: {
-    backgroundColor: 'grey',
+    backgroundColor: 'green',
   }
 })

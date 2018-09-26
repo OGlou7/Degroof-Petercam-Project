@@ -10,11 +10,13 @@ import SettingsScreen from '../screens/SettingsScreen';
 
 const HomeStack = createStackNavigator({
   Home: HomeScreenML,
-});
-
-const SignStack = createStackNavigator({
   SignUp:HomeScreenAdrien,
-});
+  Links: LinksScreen,
+},
+  {
+    initialRouteName: 'Home',
+  });
+
 
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',

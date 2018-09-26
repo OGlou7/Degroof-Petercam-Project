@@ -26,7 +26,7 @@ class LoginPage extends React.Component{
 			}
 		});
 		if (this.state.error==true) {
-			this.props.navigation.navigate('SignUp');
+			this.props.navigation.navigate('Links');
 		}
 	}
 
@@ -63,7 +63,7 @@ class LoginPage extends React.Component{
 				<View>
 					<Text style={styles.signupText}>Don´t have an account yet?</Text>
 					<TouchableOpacity
-						onPress={this.props.navigation.navigate('SignUp')}
+						onPress={()=> this.props.navigation.navigate('SignUp')}
 						>
 						<Text style={styles.signupButton}>Sign Up</Text>
 					</TouchableOpacity>

@@ -23,7 +23,7 @@ const projectData = [
     skills: ['skill 2.1', 'skill 2.2', 'skill 2.3'],
     hours: 'hours 2',
     picture: {
-      source: 'https://avatars2.githubusercontent.com/u/37371401?s=460&v=4',
+      source: 'https://avatars3.githubusercontent.com/u/38914407?s=460&v=4',
     },
   },
   {
@@ -34,7 +34,7 @@ const projectData = [
     skills: ['skill 3.1', 'skill 3.2', 'skill 3.3'],
     hours: 'hours 3',
     picture: {
-      source: 'https://avatars3.githubusercontent.com/u/38914407?s=460&v=4',
+      source: 'https://avatars1.githubusercontent.com/u/38914599?s=460&v=4',
     },
   },
   {
@@ -56,7 +56,7 @@ const projectData = [
     skills: ['skill', 'skill', 'skill'],
     hours: 'hours',
     picture: {
-      source: 'https://avatars1.githubusercontent.com/u/38914599?s=460&v=4',
+      source: 'https://avatars2.githubusercontent.com/u/37371401?s=460&v=4',
     },
   },
   {
@@ -91,7 +91,8 @@ const projectData = [
     picture: {
       source: 'https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png',
     },
-  },{
+  },
+  {
     name: 'Name',
     region: 'Region',
     fields: ['field', 'field', 'field'],
@@ -108,18 +109,37 @@ export default class App extends Component {
   static navigationOptions = {
   header: null,
   };
-  
+
+  constructor(props) {
+        super(props);
+        this.state = {
+            searchStringUser: "",
+        }
+    }
+    handleChange(e){fiend.
+        this.setState({searchStringUser: e.target.value});
+    }
   render() {
-    return (
+    return (  // value={this.state.searchStringUser}
+        // onChangeText={this.handleChange.bind(this)}
       <View style={styles.container}>
         <SearchBar
         lightTheme
-        // onChangeText={someMethod}
+        // value={this.state.searchStringUser}
+        // onChangeText={this.handleChange.bind(this)}
         // onClearText={someMethod}
-        placeholder='Type Here...' />
+        placeholder="Search for a project !             ( doesn't work )" />
         <ProjectCard data={projectData} />
       </View>
     )
   }
 }
-const styles = StyleSheet.create({ container: { flex: 1, marginTop: 24 } })
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    marginTop: 24,
+  },
+  bar: {
+    backgroundColor: 'grey',
+  }
+})

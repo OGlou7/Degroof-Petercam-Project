@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { StyleSheet, View, Text, TextInput} from 'react-native'
+import { StyleSheet, View, Text, TextInput,AppRegistry} from 'react-native'
 import ProjectCard from '../components/ProjectCard'
 import { SearchBar } from 'react-native-elements'
 

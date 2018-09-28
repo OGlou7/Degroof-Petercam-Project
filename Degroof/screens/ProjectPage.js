@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, StyleSheet,  View } from 'react-native';
+import { ScrollView, StyleSheet,  View,AppRegistry } from 'react-native';
 import ProjPicture from '../components/ProjPicture';
 import ProjDescription from '../components/ProjDescription';
 import MissionDescription from '../components/MissionDescription';

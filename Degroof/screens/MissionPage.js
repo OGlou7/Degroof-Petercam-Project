@@ -1,5 +1,5 @@
 import React from 'react';
-import {View,Text,StyleSheet
+import {View,Text,StyleSheet,AppRegistry
   } from 'react-native';
 import ProjPicture from '../components/ProjPicture';
 import ProjectDate from '../components/ProjectDate';

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity, View, TextInput, KeyboardAvoidingView,
+import {AppRegistry,Image, StyleSheet, Text, TouchableOpacity, View, TextInput, KeyboardAvoidingView,
 } from 'react-native';
 import LoginPage from "../components/establishments/LoginPage";
 import SignUpPage from "../components/establishments/SignUpPage";
@@ -11,8 +11,6 @@ export default class HomeScreenML extends React.Component {
 
   render() {
     return (
-
-      <LoginPage navigation={this.props.navigation}/>
       <KeyboardAvoidingView behavior="padding" style={styles.containerScreen}>
         <View>
           <Image style={styles.imageLogoContainer}
@@ -27,6 +25,7 @@ export default class HomeScreenML extends React.Component {
         <View style={styles.WelcomeText}>
           <Text style={styles.logoText}> Welcome to Degroof Petercam </Text>
           <Text style={styles.logoText}> MyApp</Text>
+          <LoginPage navigation={this.props.navigation}/>
         </View>
       </KeyboardAvoidingView>
 
@@ -61,7 +60,4 @@ const styles = StyleSheet.create({
   WelcomeText:{
     paddingTop: 22,
   },
-
-
-
 });

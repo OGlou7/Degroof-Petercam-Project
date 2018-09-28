@@ -4,6 +4,7 @@ import {
   TouchableOpacity,
   Text,
   View,
+  AppRegistry
 } from 'react-native'
 
 class ApplyButton extends Component {

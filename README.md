@@ -39,4 +39,4 @@ Create an app :
 
 ## Link to the final project
 
-
+[**Presentation Slides**](https://docs.google.com/presentation/d/12D71UJ8OQ218H6CTkAbeKVEnAWTp2zsbC-ITotRXm_c/edit?usp=sharing)

@@ -9,6 +9,9 @@
   - ***Back-end***
   - [Adrien d'Oreye](https://github.com/Adridor)
   - [Eric Lavachery](https://github.com/ericLavachery)
+ 
+- **Technology** :
+  - React Native
 
 - **Duration** : `3 Days`
 

@@ -4,7 +4,7 @@
 - **Team** : 
   - ***Front-End***
   - [Alexandre Infanti](https://github.com/Alex-Nfnt)
-  - [Marie Louise Ogdoc](https://github.com/OGlou7)
+  - [Louise](https://github.com/OGlou7)
   - [Nathan Houtain](https://github.com/NathanHoutain) 
   - ***Back-end***
   - [Adrien d'Oreye](https://github.com/Adridor)

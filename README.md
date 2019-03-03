@@ -3,9 +3,9 @@
 - **Repository**: `Degroof-Petercam-Project`
 - **Team** : 
   - ***Front-End***
-  - [Alexandre Infanti](https://github.com/Alex-Nfnt)
+  - [Alexandre ](https://github.com/Alex-Nfnt)
   - [Louise](https://github.com/OGlou7)
-  - [Nathan Houtain](https://github.com/NathanHoutain) 
+  - [Nathan ](https://github.com/NathanHoutain) 
   - ***Back-end***
   - [Adrien d'Oreye](https://github.com/Adridor)
   - [Eric Lavachery](https://github.com/ericLavachery)
